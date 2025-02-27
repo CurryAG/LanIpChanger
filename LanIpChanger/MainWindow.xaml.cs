@@ -289,6 +289,10 @@ namespace LanIpChanger
                 }
             }
             JSONController.SaveConfig();
+            if (sender == null && e == null)
+            {
+                return;
+            }
             MessageBox.Show("Сохранено");
         }
         public bool CheckFreeName(string Name, string AdapterId)
@@ -308,6 +312,7 @@ namespace LanIpChanger
             string AdapterName = (AdapterComboBox.SelectedItem as AdapterData).Name;
             IPController.Reset(AdapterName);
             AdapterSetting SelectedAdapterSetting = NetSettingsCombobox.SelectedItem as AdapterSetting;
+            SaveButton_Click(null, null);
             if (SelectedAdapterSetting.IsDefault)
             {
                 MessageBox.Show("Успешно");

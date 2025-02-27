@@ -21,7 +21,7 @@
         <TextBox x:Name="SecondDNSTextBox" HorizontalAlignment="Left" Margin="150,193,0,0" TextWrapping="Wrap" Text="" FontSize="16" VerticalAlignment="Top" Width="240"/>
         <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Left" FontSize="16" Margin="10,230,0,0" VerticalAlignment="Top" Click="AddButton_Click" Width="91"/>
         <Button x:Name="DeleteButton" Content="Удалить" HorizontalAlignment="Left" FontSize="16" Margin="106,230,0,0" VerticalAlignment="Top" Click="DeleteButton_Click" Width="89"/>
-        <Button x:Name="EditButton" Content="Изменить" HorizontalAlignment="Left" FontSize="16" Margin="200,230,0,0" VerticalAlignment="Top" Width="88" Click="EditButton_Click"/>
+        <Button x:Name="EditButton" Content="Изм. назв." HorizontalAlignment="Left" FontSize="16" Margin="200,230,0,0" VerticalAlignment="Top" Width="88" Click="EditButton_Click"/>
         <Button x:Name="SaveButton" Content="Сохранить" HorizontalAlignment="Left" FontSize="16" Margin="293,230,0,0" VerticalAlignment="Top" Width="97" Click="SaveButton_Click"/>
         <Button x:Name="ApplyButton" Content="Применить" HorizontalAlignment="Center" FontSize="16" Margin="0,260,0,0" VerticalAlignment="Top" Width="380" Click="ApplyButton_Click"/>
 
